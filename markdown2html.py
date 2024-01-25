@@ -24,7 +24,8 @@ def markdown_to_html(markdown_file, output_file):
             if match:
                 heading_level = len(match.group(1))
                 heading_text = match.group(2)
-                final_html.append(f"<h{heading_level}>{heading_text}</h{heading_level}>")
+                final_html.append(
+                    f"<h{heading_level}>{heading_text}</h{heading_level}>")
             else:
                 final_html.append(line.rstrip())
 
@@ -36,11 +37,11 @@ def markdown_to_html(markdown_file, output_file):
             else:
                 final_html.append(line.rstrip())
 
-
     with open(output_file, 'w', encoding="utf-8") as f:
         f.write("\n".join(final_html))
 
 if __name__ == "__main__":
+
 
     if len(sys.argv) != 3:
         print("Usage: ./markdown2html.py markdown_file output_file",
