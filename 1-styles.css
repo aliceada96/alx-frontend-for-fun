@@ -1,0 +1,8 @@
+h2 a {
+    text-decoration: none;
+}
+
+h2 a:hover {
+    text-decoration: underline;
+    transition: text-decoration 0.001s ease; /* Adjust the duration and easing function as needed */
+}
