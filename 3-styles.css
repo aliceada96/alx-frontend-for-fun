@@ -22,7 +22,7 @@ body {
 .menu-open-button {
   cursor: pointer;
   padding: 10px;
-  background-color: #333;
+  background-color: #d11d1d;
   border: none;
   outline: none;
   display: flex;
@@ -51,7 +51,7 @@ body {
 
 .menu-item {
   text-decoration: none;
-  color: #333;
+  color: #d11d1d;
   background-color: #fff;
   padding: 10px;
   margin: 5px 0;
@@ -60,6 +60,6 @@ body {
 }
 
 .menu-item:hover {
-  background-color: #333;
+  background-color: #d11d1d;
   color: #fff;
 }

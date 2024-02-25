@@ -53,14 +53,13 @@ body {
 }
 
 .toggle-cb:checked + .toggle-label {
-  background-color: #5cb85c;
+  background-color: #920f12;
 }
 
 .toggle-cb:checked + .toggle-label .toggle-inner {
-  transform: translateX(26px);
+  transform: translateX(10px);
 }
 
 .toggle-cb:checked + .toggle-label .toggle-switch {
-  background-color: #5cb85c;
-  transform: translateX(26px);
+  transform: translateX(10px);
 }
